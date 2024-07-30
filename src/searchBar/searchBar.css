@@ -1,0 +1,28 @@
+.searchBar-container {
+  width: 60vw;
+  min-width: 200px;
+  background-color: var(--main-color);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.search-bar {
+  width: 100%;
+  outline: none;
+  background-color: whitesmoke;
+  color: rgb(196, 24, 24);
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  height: fit-content;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.search-bar::placeholder {
+  color: rgb(144, 143, 143);
+  font-weight: bold;
+}
+.searchBar-container > img {
+  height: 50px;
+}

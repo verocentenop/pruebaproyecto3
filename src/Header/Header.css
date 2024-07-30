@@ -1,0 +1,21 @@
+.header-box {
+  margin: 20px;
+  width: 99vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-box > img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 550px) {
+  .header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+}

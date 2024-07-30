@@ -1,0 +1,14 @@
+.refresh-button {
+  background-color: rgb(169, 23, 23);
+  border-radius: 15px;
+  width: 80px;
+  border: none;
+  color: var(--main-color);
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.refresh-button:active {
+  transform: scale(0.9);
+}
